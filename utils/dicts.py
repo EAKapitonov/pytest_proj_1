@@ -1,7 +1,7 @@
 def get_val(collection, key, default='git'):
     """
 
-    :param collection: словарь
+    :param collection: словарь, который подается функции
     :param key: ключ словаря collection значение которого надо вернуть
     :param default: значение, которое возвращается если ключ отсутствует или пустой словарь
     :return: значения словаря по ключу

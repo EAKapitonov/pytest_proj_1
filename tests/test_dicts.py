@@ -13,7 +13,7 @@ def test_dict_0():  # фикстура для теста - пустой слов
 
 
 def test_get_val(test_dict_1, test_dict_0):
-    """тест функции get_val"""
+    """тесты для функции get_val"""
     assert dicts.get_val(test_dict_1, 1) == "a"  # вывод значения по ключу, в функцию передается 2 переменных
     assert dicts.get_val(test_dict_1, 1, 'git') == "a"  # вывод значения по ключу, в функцию передается 3 переменых
     assert dicts.get_val(test_dict_0, 1, 'git') == "git"  # вывод в случае пустого словаря
